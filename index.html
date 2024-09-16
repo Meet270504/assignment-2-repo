@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="icon" href="/resources/favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+   <!-- Creative Banner SVG -->
+<!-- House with Sun Banner SVG -->
+<svg width="100%" height="300px" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Sky -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(135,206,250);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(70,130,180);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="300px" fill="url(#bgGradient)" />
+
+    <!-- Sun with radial gradient -->
+    <defs>
+        <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:rgb(255,255,100);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(255,165,0);stop-opacity:1" />
+        </radialGradient>
+    </defs>
+    <circle cx="85%" cy="15%" r="40" fill="url(#sunGradient)" />
+
+    <!-- House body -->
+    <rect x="250" y="150" width="200" height="150" fill="peru" />
+
+    <!-- Roof -->
+    <polygon points="240,150 350,80 460,150" fill="sienna" />
+
+    <!-- Door -->
+    <rect x="330" y="220" width="40" height="80" fill="saddlebrown" />
+    
+    <!-- Door knob -->
+    <circle cx="365" cy="260" r="5" fill="gold" />
+
+    <!-- Windows -->
+    <rect x="270" y="180" width="40" height="40" fill="lightgray" />
+    <rect x="390" y="180" width="40" height="40" fill="lightgray" />
+
+    <!-- Window frames -->
+    <line x1="270" y1="200" x2="310" y2="200" stroke="black" stroke-width="2" />
+    <line x1="290" y1="180" x2="290" y2="220" stroke="black" stroke-width="2" />
+    <line x1="390" y1="200" x2="430" y2="200" stroke="black" stroke-width="2" />
+    <line x1="410" y1="180" x2="410" y2="220" stroke="black" stroke-width="2" />
+</svg>
+
+
+    <!-- Navigation --> 
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/views/two.html">Page Two</a></li>
+            <li><a href="/views/three.html">Page Three</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <h1>Assignment 2</h1>
+    <h2>How to Apply CSS to HTML</h2>
+    <p>To apply external CSS, you can link a CSS file in your HTML file using the <code>&lt;link&gt;</code> element in the <code>&lt;head&gt;</code> section.</p>
+
+    <h2>How to Use JavaScript in a Webpage</h2>
+    <p>To include an external JavaScript file, use the <code>&lt;script&gt;</code> tag with the <code>src</code> attribute, like this: <code>&lt;script src="yourfile.js"&gt;&lt;/script&gt;</code>.</p>
+    <footer>
+        <p>&copy; 2024 My First Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
