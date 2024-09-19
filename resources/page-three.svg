@@ -1,0 +1,14 @@
+<!-- page-three.svg -->
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a square path with padding -->
+  <path id="squarePath" d="M 20 20 H 200 V 200 H 20 Z" fill="none" stroke="black"/>
+
+  <!-- Red Circle -->
+  <circle r="5" fill="red">
+    <!-- Animate the circle along the square path -->
+    <animateMotion repeatCount="indefinite" dur="5s">
+      <mpath href="#squarePath" />
+    </animateMotion>
+  </circle>
+</svg>
+
