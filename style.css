@@ -1,0 +1,100 @@
+/* Apply Google Font 'Inter' to the whole website */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Styling for the navigation menu */
+nav {
+    background-color: #0073e6;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Style for the main content (headings and paragraphs) */
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    padding: 0 10px;
+}
+
+table {
+    margin: 0 auto; /* This will center the table */
+    border-collapse: collapse;
+    width: 60%; /* Optional: Adjust the table width as needed */
+}
+
+/* Add some basic styling for the table */
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Center the caption (the table title) */
+caption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Center the SVG container */
+.svg-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 400px;      
+}
+
+/* Ensure the SVG has a fixed size */
+.svg-container img {
+    max-width: 100%;  
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: lightblue;
+    color: black; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Make sure there's enough content space above the footer */
+body {
+    padding-bottom: 50px;
+}
