@@ -12,7 +12,7 @@ This repository contains the submission for **Assignment 2** for CSC317. The pro
   This SVG banner spans the full width of the screen and is 300px in height, adhering to the assignment requirements.
 
 ### **Table (two.html)**:
-- A table was created on the second page (`two.html`) to list my top three favorite coding resources, using `<table>`, `<thead>`, and `<tbody>` elements. The table includes four rows and two columns, with the first row acting as a heading. The table is styled with borders and padding for better readability, and the caption is centered above the table.
+- A table was created on the second page (`two.html`) to list my top four favorite coding resources, using `<table>`, `<thead>`, and `<tbody>` elements. The table includes four rows and two columns, with the first row acting as a heading. The table is styled with borders and padding for better readability, and the caption is centered above the table.
 
 ### **SVG Animation (three.html and page-three.svg)**:
 - On the third page (`three.html`), an SVG animation was created featuring a small red circle traversing the perimeter of a square. This animation demonstrates the use of the `<animateMotion>` element in SVGs, where the circle follows a path defined by the `<path>` element. The animation file (`page-three.svg`) is stored in the `resources/` folder and is displayed using an `<img>` tag in the HTML file.
